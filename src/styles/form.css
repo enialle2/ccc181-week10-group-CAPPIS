@@ -108,8 +108,8 @@
       width: 100%;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var (--radius);
-      padding: 1.5 rem 1 rem;
+      border-radius: var(--radius);
+      padding: 1.5rem 1rem;
    }
 
    .login-card__title {
@@ -189,7 +189,7 @@
 
    .form-success {
       padding: 0.75rem;
-      color: var(--succes);
+      color: var(--success);
       background: #e7f6ec;
    }
 
@@ -261,6 +261,7 @@
       border: 2px solid var(--navy);
       border-radius: var(--radius);
       cursor: pointer;
+      justify-content: center;
    }
 
    .btn:focus-visible {
@@ -269,9 +270,9 @@
    }
 
    .btn--primary {
-      width: 100;
-      color: #fff;
-      background: var(--navy);
+      width: 100%;
+      color: var(--navy);
+      background: #fff;
    }
    .btn--primary:hover,
    .btn--primary:focus-visible {
