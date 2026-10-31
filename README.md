@@ -21,7 +21,6 @@ npm run build        # must finish with no errors before you submit
 
 ## Group information (fill in)
 
-feature/base-dulalas
 | Item | Your answer |
 | --- | --- |
 | Group number | CAPPIS |
