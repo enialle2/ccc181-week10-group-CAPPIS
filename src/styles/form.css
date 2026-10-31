@@ -230,6 +230,13 @@
       font-weight: 700;
    }
 
+   .link:hover {
+      link:focus-visible {
+         color: var(--navy-hover);
+         text-decoration: underline;
+      }
+   }
+
    /*
    BUTTONS
    TODO .btn                  display: inline-flex; centered text; min-height 48px;
