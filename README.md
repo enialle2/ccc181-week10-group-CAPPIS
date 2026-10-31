@@ -23,15 +23,15 @@ npm run build        # must finish with no errors before you submit
 
 | Item | Your answer |
 | --- | --- |
-| Group number | |
-| Section | |
-| Repository URL | |
+| Group number | CAPPIS |
+| Section | IT3A |
+| Repository URL | https://github.com/enialle2/ccc181-week10-group-CAPPIS |
 
 ## Members (each member fills in their own row in their own commit)
 
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
-| 1 (leader) | | | `base.css` | |
+| 1 (leader) | Ellaine Dulalas | enialle2 | `base.css` | I wrote base.css (page layout and brand panel from phone to 1280px) and added the viewport meta tag and .gitignore. |
 | 2 | | | `nav.css` | |
 | 3 | | | `form.css` | |
 
