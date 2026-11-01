@@ -40,7 +40,9 @@ main
 ## Experiment 0: the page without the viewport tag
 
 What did the page look like in DevTools phone mode **before** adding the viewport meta tag?
+- Before adding the viewport meta tag, the page in DevTools phone mode specifically in an iPhone SE- looked zoomed out and very small, as if a full desktop page had been shrunk to fit the phone screen. The text was tiny and hard to read, and the layout looked like the desktop version instead of a phone layout.
 What changed **after** adding it?
+- After I added <meta name="viewport" content="width=device-width, initial-scale=1"> to index.html and reloaded, the page used the real phone width. The text became normal-sized and readable, and the layout stacked into a single column that fit the screen. This showed me that without the viewport tag, the browser assumes a wide desktop width, so the media queries and mobile styles don't behave properly on a phone.
 
 > (write your answer here)
 
