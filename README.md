@@ -32,7 +32,7 @@ npm run build        # must finish with no errors before you submit
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
 | 1 (leader) | Ellaine Dulalas | enialle2 | `base.css` | I wrote base.css (...your full sentence...) |
-| 2 | | | `nav.css` | |
+| 2 | Anrica Tinoy | anricatinoy | `nav.css` |I wrote nav.css to style the responsive navigation bar using Flexbox and the 3-column footer using CSS Grid with mobile-first media queries.|
 | 3 | Zemeco M. Buntag | zemecobuntag | `form.css` | Styled the login form to be mobile-friendly and responsive on bigger screens. |
 
 main
