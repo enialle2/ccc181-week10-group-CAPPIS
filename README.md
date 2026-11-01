@@ -31,20 +31,17 @@ npm run build        # must finish with no errors before you submit
 
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
-| 1 (leader) | Ellaine Dulalas | enialle2 | `base.css` | I wrote base.css (...your full sentence...) |
+| 1 (leader) | Ellaine Dulalas | enialle2 | `base.css` | I wrote base.css (page layout and brand panel from phone to 1280px) and added the viewport meta tag and .gitignore. |
 | 2 | | | `nav.css` | |
 | 3 | Zemeco M. Buntag | zemecobuntag | `form.css` | Styled the login form to be mobile-friendly and responsive on bigger screens. |
-
-main
 
 ## Experiment 0: the page without the viewport tag
 
 What did the page look like in DevTools phone mode **before** adding the viewport meta tag?
-- Before adding the viewport meta tag, the page in DevTools phone mode specifically in an iPhone SE- looked zoomed out and very small, as if a full desktop page had been shrunk to fit the phone screen. The text was tiny and hard to read, and the layout looked like the desktop version instead of a phone layout.
-What changed **after** adding it?
-- After I added <meta name="viewport" content="width=device-width, initial-scale=1"> to index.html and reloaded, the page used the real phone width. The text became normal-sized and readable, and the layout stacked into a single column that fit the screen. This showed me that without the viewport tag, the browser assumes a wide desktop width, so the media queries and mobile styles don't behave properly on a phone.
 
-> (write your answer here)
+What changed **after** adding it?
+
+> I first noticed the effect of the viewport tag in DevTools phone mode (iPhone SE), and I repeated the check later, after base.css and form.css had already been added, so the page was already styled. With the viewport meta tag commented out, the page was laid out as if the screen were much wider than the phone. The content was cut off on the right side, so the heading and the sign-in card did not fit and I would have had to scroll sideways or zoom out to see them. After restoring `<meta name="viewport" content="width=device-width, initial-scale=1">` and reloading, the page used the real phone width. The layout fit the screen, the text was a normal readable size, and everything stacked in a single column. This showed me that without the viewport tag, the browser assumes a wide desktop width, so the mobile styles and media queries do not behave as intended.
 
 ## DevTools test results
 
