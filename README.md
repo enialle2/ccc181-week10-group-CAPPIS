@@ -21,24 +21,28 @@ npm run build        # must finish with no errors before you submit
 
 ## Group information (fill in)
 
-| Item           | Your answer |
-| -------------- | ----------- |
-| Group number   |             |
-| Section        |             |
-| Repository URL |             |
+| Item | Your answer |
+| --- | --- |
+| Group number | CAPPIS |
+| Section | IT3A |
+| Repository URL | https://github.com/enialle2/ccc181-week10-group-CAPPIS |
 
 ## Members (each member fills in their own row in their own commit)
 
-| Member     | Name             | GitHub username | CSS file   | What I did                                                                    |
-| ---------- | ---------------- | --------------- | ---------- | ----------------------------------------------------------------------------- |
-| 1 (leader) |                  |                 | `base.css` |                                                                               |
-| 2          |                  |                 | `nav.css`  |                                                                               |
-| 3          | Zemeco M. Buntag | zemecobuntag    | `form.css` | Styled the login form to be mobile-friendly and responsive on bigger screens. |
+| Member | Name | GitHub username | CSS file | What I did |
+| --- | --- | --- | --- | --- |
+| 1 (leader) | Ellaine Dulalas | enialle2 | `base.css` | I wrote base.css (...your full sentence...) |
+| 2 | | | `nav.css` | |
+| 3 | Zemeco M. Buntag | zemecobuntag | `form.css` | Styled the login form to be mobile-friendly and responsive on bigger screens. |
+
+main
 
 ## Experiment 0: the page without the viewport tag
 
 What did the page look like in DevTools phone mode **before** adding the viewport meta tag?
+- Before adding the viewport meta tag, the page in DevTools phone mode specifically in an iPhone SE- looked zoomed out and very small, as if a full desktop page had been shrunk to fit the phone screen. The text was tiny and hard to read, and the layout looked like the desktop version instead of a phone layout.
 What changed **after** adding it?
+- After I added <meta name="viewport" content="width=device-width, initial-scale=1"> to index.html and reloaded, the page used the real phone width. The text became normal-sized and readable, and the layout stacked into a single column that fit the screen. This showed me that without the viewport tag, the browser assumes a wide desktop width, so the media queries and mobile styles don't behave properly on a phone.
 
 > (write your answer here)
 
